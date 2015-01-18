@@ -1,0 +1,45 @@
+Nummer: 1064Medelande: MySQL error - kunde inte uppdatera MySQL: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1' at line 2 
+ Query:  INSERT INTO min_vara (producent, produkt, kcal, protein, kolhydrat, fett, activeState)
+			VALUES ('Heinz', 'Ketchup', '102', '1,2', '23,2', '0,1'), 1
+#0 /var/www/html/kalorinix/kalorinix/wordpress/wp-content/plugins/kalorinix/model/DataConnection.php(35): DataConnection->mysqlInsert('INSERT INTO min...')<br />
+#1 /var/www/html/kalorinix/kalorinix/wordpress/wp-content/plugins/kalorinix/create-widget/controller/DataController.php(66): DataConnection->insertData('INSERT INTO min...')<br />
+#2 /var/www/html/kalorinix/kalorinix/wordpress/wp-content/plugins/kalorinix/create-widget/handler/ajax/InsertItemHandler.php(28): DataController->insertSessionData()<br />
+#3 {main}   |  Date:  10.10.2014 12:54:38
+Nummer: 1064Medelande: MySQL error - kunde inte uppdatera MySQL: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1' at line 2 
+ Query:  INSERT INTO min_vara (producent, produkt, kcal, protein, kolhydrat, fett, activeState)
+			VALUES ('Heinz', 'Ketchup', '102', '1,2', '23,2', '0,1'), 1
+#0 /var/www/html/kalorinix/kalorinix/wordpress/wp-content/plugins/kalorinix/model/DataConnection.php(35): DataConnection->mysqlInsert('INSERT INTO min...')<br />
+#1 /var/www/html/kalorinix/kalorinix/wordpress/wp-content/plugins/kalorinix/create-widget/controller/DataController.php(66): DataConnection->insertData('INSERT INTO min...')<br />
+#2 /var/www/html/kalorinix/kalorinix/wordpress/wp-content/plugins/kalorinix/create-widget/handler/ajax/InsertItemHandler.php(28): DataController->insertSessionData()<br />
+#3 {main}   |  Date:  10.10.2014 12:58:17
+Nummer: 1064Medelande: MySQL error - kunde inte uppdatera MySQL: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1' at line 2 
+ Query:  INSERT INTO min_vara (producent, produkt, kcal, protein, kolhydrat, fett, activeState)
+			VALUES ('Heinz', 'Ketchup', '102', '1,2', '23,2', '0,1'), 1
+#0 /var/www/html/kalorinix/kalorinix/wordpress/wp-content/plugins/kalorinix/model/DataConnection.php(35): DataConnection->mysqlInsert('INSERT INTO min...')<br />
+#1 /var/www/html/kalorinix/kalorinix/wordpress/wp-content/plugins/kalorinix/create-widget/controller/DataController.php(66): DataConnection->insertData('INSERT INTO min...')<br />
+#2 /var/www/html/kalorinix/kalorinix/wordpress/wp-content/plugins/kalorinix/create-widget/handler/ajax/InsertItemHandler.php(28): DataController->insertSessionData()<br />
+#3 {main}   |  Date:  10.10.2014 12:58:35
+Nummer: 1064Medelande: MySQL error - kunde inte uppdatera MySQL: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''1'' at line 2 
+ Query:  INSERT INTO min_vara (producent, produkt, kcal, protein, kolhydrat, fett, activeState)
+			VALUES ('test', 'test', '1', '1', '1', '1'), '1'
+#0 /var/www/html/kalorinix/kalorinix/wordpress/wp-content/plugins/kalorinix/model/DataConnection.php(35): DataConnection->mysqlInsert('INSERT INTO min...')<br />
+#1 /var/www/html/kalorinix/kalorinix/wordpress/wp-content/plugins/kalorinix/create-widget/controller/DataController.php(66): DataConnection->insertData('INSERT INTO min...')<br />
+#2 /var/www/html/kalorinix/kalorinix/wordpress/wp-content/plugins/kalorinix/create-widget/handler/ajax/InsertItemHandler.php(28): DataController->insertSessionData()<br />
+#3 {main}   |  Date:  11.10.2014 08:30:26
+Nummer: 1064Medelande: MySQL error - kunde inte uppdatera MySQL: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'true' at line 2 
+ Query:  INSERT INTO min_vara (producent, produkt, kcal, protein, kolhydrat, fett, activeState)
+			VALUES ('test', 'test', '1', '1', '1', '1'), true
+#0 /var/www/html/kalorinix/kalorinix/wordpress/wp-content/plugins/kalorinix/model/DataConnection.php(35): DataConnection->mysqlInsert('INSERT INTO min...')<br />
+#1 /var/www/html/kalorinix/kalorinix/wordpress/wp-content/plugins/kalorinix/create-widget/controller/DataController.php(66): DataConnection->insertData('INSERT INTO min...')<br />
+#2 /var/www/html/kalorinix/kalorinix/wordpress/wp-content/plugins/kalorinix/create-widget/handler/ajax/InsertItemHandler.php(28): DataController->insertSessionData()<br />
+#3 {main}   |  Date:  11.10.2014 08:32:33
+MySQL error - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Vit' at line 3 
+ Query:  
+#0 /var/www/html/kalorinix/kalorinix/wordpress/wp-content/plugins/kalorinix/own-widget/controller/OwnController.php(57): DataConnection->updateData('UPDATE min_vara...')<br />
+#1 /var/www/html/kalorinix/kalorinix/wordpress/wp-content/plugins/kalorinix/own-widget/handler/AjaxHandler.php(42): OwnController->remove(Array)<br />
+#2 {main}   |  Date:  15.10.2014 08:25:36
+MySQL error - Unknown column 'inactive_tile' in 'field list' 
+ Query:  
+#0 /var/www/html/kalorinix/kalorinix/wordpress/wp-content/plugins/kalorinix/own-widget/controller/OwnController.php(57): DataConnection->updateData('UPDATE min_vara...')<br />
+#1 /var/www/html/kalorinix/kalorinix/wordpress/wp-content/plugins/kalorinix/own-widget/handler/AjaxHandler.php(42): OwnController->remove(Array)<br />
+#2 {main}   |  Date:  15.10.2014 12:47:40

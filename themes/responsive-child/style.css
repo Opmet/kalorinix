@@ -1,0 +1,14 @@
+/*
+ Theme Name:     Responsive Child
+ Theme URI:      http://localhost
+ Description:    Responsive Child Theme
+ Author:         Joakim Andersson
+ Author URI:     http://www.itandersson.se
+ Template:       responsive
+ Version:        1.0.0
+*/
+
+@import url("../responsive/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
